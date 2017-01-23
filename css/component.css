@@ -2,6 +2,12 @@
 body {
     background-color:yellow;
 }
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
 {
 	font-family:"Blackjack","Georgia";
 	font-size:30px;
