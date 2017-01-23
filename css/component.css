@@ -8,10 +8,12 @@ h1 {
 p {
     color: red;
 }
-{
-	font-family:"Blackjack","Georgia";
-	font-size:30px;
+
+#me {
+    float: left;
+    margin: 0 0 10px 10px;
 }
+
 
 /* .container > header {
 	width: 90%;
