@@ -2,7 +2,10 @@
 body {
     background-color:yellow;
 }
-
+{
+	font-family:"Blackjack","Georgia";
+	font-size:30px;
+}
 
 /* .container > header {
 	width: 90%;
