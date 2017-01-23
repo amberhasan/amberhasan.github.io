@@ -2,14 +2,14 @@
 body {
     background-color:#ADD8E6;
 }
-#introHeader {
-    color: blue;
+h1 {
+    color: #FF1493;
 }
 p {
-    color: red;
+    color: black;
 }
 
-#me {
+#avatar {
     float: left;
     margin: 0 0 10px 10px;
 }
