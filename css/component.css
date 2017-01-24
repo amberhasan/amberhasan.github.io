@@ -37,3 +37,7 @@ p {
 #menu li a:hover {
     background-color: #111;
 }
+
+#left nav{
+    float: left;
+}
