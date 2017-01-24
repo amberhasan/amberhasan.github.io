@@ -34,6 +34,6 @@ li a.header {
     text-decoration: none;
 }
 
-li a:hover {
+li a.header:hover {
     background-color: #111;
 }
