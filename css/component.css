@@ -3,7 +3,19 @@
 #body { overflow:auto; }
 #leftsidebar {float:left; width:150px; background-color:#ccc;min-height:1000px;}
 #rightsidebar { top:0; bottom:0; float:right; width:150px; background-color:#ccc;min-height:1000px;}
+#header li.container.menu {
+    list-style:none;
+    float:left;
+    margin-left:15px;
+    margin-top:15px;
+}
 
+.header{
+    background: #6396bc;
+    width:100%;
+    top:0;
+    position:fixed;
+}
 
 /* h1 {
     color: #FF1493;
