@@ -47,15 +47,15 @@ body{
     margin-left:15px;
     padding-top:15px;
 }
-#left nav{
+.left {
     background-color: #B0B0B0;
     float: left;
 }
-#right p{
+.right {
     background-color: #B0B0B0;
     float: right;
 }
-#footer{
+.footer{
     background-color: #333;
     color: white;
 }
