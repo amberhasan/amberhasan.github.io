@@ -40,12 +40,11 @@ p {
 
 #main {
     background-color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 #left nav{
+    background-color: #B0B0B0;
     float: left;
 }
