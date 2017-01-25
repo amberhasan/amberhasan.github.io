@@ -29,27 +29,13 @@ p {
     width:960px;
     margin: 0 auto;
 }
-/* #menu ul {
-    position: fixed;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-}
 
-#menu li {
-    float: left;
+li{
+    list-style:none;
+    float:left;
+    margin-left:15px;
+    padding-top:15px;
 }
-
-#menu li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-#menu li a:hover {
-    background-color: #111;
-} */
 #left nav{
     background-color: #B0B0B0;
     float: left;
