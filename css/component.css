@@ -9,12 +9,15 @@ p {
     float: left;
     margin: 0 0 10px 10px;
 }
-
+#main {
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
 #menu ul {
     position: fixed;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
@@ -45,12 +48,7 @@ p {
     background-color: #333;
     color: white;
 }
-#main {
-    background-color: white;
-    margin-top: 100px;
-    margin-right: 300px;
-    margin-left: 300px;
-}
+
 
 
 
