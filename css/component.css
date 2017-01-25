@@ -24,7 +24,10 @@ body{
     margin-left: 300px;
 }
 .menu{
-    float:right;   
+    float:right;  
+}
+.menu a{
+    text-decoration:none;
 }
 
 .header{
