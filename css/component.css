@@ -30,11 +30,11 @@ a{
     text-decoration:none;
     color: white;
 }
-li.header {
+#header li.container.menu {
     list-style:none;
     float:left;
     margin-left:15px;
-    margin-bottom:15px;
+    margin-top:15px;
 }
 
 .header{
