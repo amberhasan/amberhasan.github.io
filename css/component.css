@@ -26,10 +26,10 @@ body{
 .menu{
     float:right;  
 }
-.menu a{
+a{
     text-decoration:none;
 }
-.menu li{
+li{
     list-style:none;
     float:left;
     margin-left:15px;
