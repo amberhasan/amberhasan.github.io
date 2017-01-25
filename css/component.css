@@ -30,7 +30,7 @@ a{
     text-decoration:none;
     color: white;
 }
-li{
+.header li.container.logo {
     list-style:none;
     float:left;
     margin-left:15px;
