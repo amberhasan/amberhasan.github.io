@@ -3,14 +3,14 @@
 #body { overflow:auto; }
 #leftsidebar {float:left; width:150px; background-color:#ccc;min-height:1000px;}
 #rightsidebar { top:0; bottom:0; float:right; width:150px; background-color:#ccc;min-height:1000px;}
-div#header li.menu.container {
+div#header li.container.menu {
     list-style:none;
     float:left;
     margin-left:15px;
     margin-top:15px;
 }
 
-#header{
+#header .container{
     background: #6396bc;
     width:100%;
     top:0;
