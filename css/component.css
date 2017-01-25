@@ -29,6 +29,12 @@ body{
 .menu a{
     text-decoration:none;
 }
+.menu li{
+    list-style:none;
+    float:left;
+    margin-left:15px;
+    padding-top:15px;
+}
 
 .header{
     background: #6396bc;
@@ -41,12 +47,7 @@ body{
     margin: 0 auto;
 }
 
-.header li{
-    list-style:none;
-    float:left;
-    margin-left:15px;
-    padding-top:15px;
-}
+
 .left {
     background-color: #B0B0B0;
     float: left;
