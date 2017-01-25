@@ -1,8 +1,8 @@
-/* #wrap { width:100%; height:100%; margin:0 0} */
+#wrap {margin:0 0} 
 #header { background-color:yellow; font-size:50px; text-align:center; }
 #body { overflow:auto; }
-#leftsidebar { float:left; width:150px; background-color:#ccc; min-height:400px; }
-#rightsidebar { float:right; width:150px; background-color:#ccc; min-height:400px; }
+#leftsidebar { top:0; bottom:0; float:left; width:150px; background-color:#ccc; min-height:400px; }
+#rightsidebar { top:0; bottom:0; float:right; width:150px; background-color:#ccc; min-height:400px; }
 
 
 /* h1 {
