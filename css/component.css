@@ -38,6 +38,13 @@ p {
     background-color: #111;
 }
 
+#main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
 #left nav{
     float: left;
 }
