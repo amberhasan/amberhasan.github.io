@@ -48,6 +48,8 @@ a{
     margin: 0 auto;
 }
 
+#body { overflow:auto; }
+#leftsidebar { float:left; width:150px; background-color:#ccc; min-height:400px; }
 
 .left {
     background-color: #B0B0B0;
