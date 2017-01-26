@@ -2,8 +2,8 @@
 /* #header { background-color:yellow; font-size:50px; text-align:center; } */
 #body { overflow:auto; position:relative;}
 #leftsidebar {float:left; width:150px; background-color:#ccc; height:100%; position:absolute} /*float:left; */
-/* #rightsidebar {top:0; bottom:0; float:right; width:150px; background-color:#ccc;height:1000px;} */
-#rightsidebar {float:right; width:150px; background-color:#ccc; height:100%; position:absolute} /*float:left; */
+#rightsidebar {top:0; bottom:0; float:right; width:150px; background-color:#ccc;height:1000px;}
+/* #rightsidebar {float:right; width:150px; background-color:#ccc; height:100%; position:absolute} /*float:left; */ */
 div#header li.container.menu {
     list-style:none;
     float:left;
