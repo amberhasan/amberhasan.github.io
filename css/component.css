@@ -1,9 +1,11 @@
-/* #wrap {width:100%; height:100%; margin:0 0}  */
-/* #header { background-color:yellow; font-size:50px; text-align:center; } */
-#body { overflow:auto; position:relative;}
+
 #container{height:100vh;}
 #leftsidebar {float:left; width:150px; background-color:#ccc; height:100%;} 
 #rightsidebar {float:right; width:150px; background-color:#ccc;height:100%;}
+#main{
+    margin-left:160px;
+    margin-right:160px;
+}
 div#header li.container.menu {
     list-style:none;
     float:left;
