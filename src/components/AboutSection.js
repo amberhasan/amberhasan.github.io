@@ -13,7 +13,7 @@ const AboutSection = () => (
           ))}
         </div>
         <iframe
-          src="../../public/documents/resume.pdf"
+          src="/documents/resume.pdf"
           title="Amber Hasan's Resume"
           className="resume-iframe"
         ></iframe>

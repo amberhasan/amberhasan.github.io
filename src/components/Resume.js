@@ -6,7 +6,7 @@ function Resume() {
     <div>
       <h1>Resume</h1>
       <iframe
-        src="/documents/resume.pdf"
+        src="../../public/documents/resume.pdf"
         title="Amber Hasan's Resume"
         style={{ width: "100%", height: "90vh", border: "none" }}
       ></iframe>
