@@ -24,6 +24,10 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run build
+      - run: |
+          echo "Verifying resume exists…"
+          test -f build/documents/resume.pdf || (echo "ERROR: build/documents/resume.pdf missing" && exit 1)
+          file build/documents/resume.pdf
       - run: cp build/index.html build/404.html # SPA deep links
       - uses: actions/upload-pages-artifact@v3
         with:
