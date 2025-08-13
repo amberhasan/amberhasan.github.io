@@ -1,84 +1,24 @@
-# Getting Started with Create React App
+# Personal Website – Quick README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Repo:** `amberhasan.github.io` (user site)  
+**Deploy:** GitHub Actions → GitHub Pages  
+**Rule #1:** **Never edit `build/`**. Only edit source (`src/`, `public/`, config). Push to `main`. Actions builds & deploys.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Update the resume (and other public assets)
 
-### `npm start`
+- Put files in `public/` (e.g., `public/resume.pdf`).
+- If you keep the **same filename**, you don’t need to change any code/links.
+- Steps:
+  ```bash
+  # replace public/resume.pdf with the new file
+  git add public/resume.pdf
+  git commit -m "Update resume (Aug 2025)"
+  git push
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-To deploy do
-npm run build
-
-mv build/\* .  
-rm -rf build
-
-git add .
-git commit -m "Deploy site"
-git push origin main
-
-1. Go to gh-pages branch
-2. Do npm run deploy
-3. But make sure the branch has everything you want. I usually reset hard with the main branch stuff.
+Everything is on GitHub Actions so you should be able to just push the code and see it a couple min later.
+```
